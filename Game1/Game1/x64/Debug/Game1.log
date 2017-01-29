@@ -1,0 +1,63 @@
+﻿  texture.cpp
+  state.cpp
+  sprite.cpp
+  overhead.cpp
+  networkcode.cpp
+  main.cpp
+  audio.cpp
+  archive.cpp
+c:\users\nick\desktop\game1\game1\archive.cpp(47): warning C4244: 'argument': conversion from 'std::streamoff' to 'int', possible loss of data
+d:\visualstudio\vc\include\xmemory0(655): error C2280: 'Audio::Audio(const Audio &)': attempting to reference a deleted function
+  c:\users\nick\desktop\game1\game1\audio.h(13): note: compiler has generated 'Audio::Audio' here
+  d:\visualstudio\vc\include\xmemory0(773): note: see reference to function template instantiation 'void std::allocator<_Ty>::construct<_Objty,Audio&>(_Objty *,Audio &)' being compiled
+          with
+          [
+              _Ty=Audio,
+              _Objty=Audio
+          ]
+  d:\visualstudio\vc\include\xmemory0(773): note: see reference to function template instantiation 'void std::allocator<_Ty>::construct<_Objty,Audio&>(_Objty *,Audio &)' being compiled
+          with
+          [
+              _Ty=Audio,
+              _Objty=Audio
+          ]
+  d:\visualstudio\vc\include\xmemory0(918): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,Audio&>(std::allocator<_Ty> &,_Objty *,Audio &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Audio>,
+              _Ty=Audio,
+              _Objty=Audio
+          ]
+  d:\visualstudio\vc\include\xmemory0(917): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,Audio&>(std::allocator<_Ty> &,_Objty *,Audio &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Audio>,
+              _Ty=Audio,
+              _Objty=Audio
+          ]
+  d:\visualstudio\vc\include\vector(1282): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<Audio,Audio&>(_Ty *,Audio &)' being compiled
+          with
+          [
+              _Ty=Audio
+          ]
+  d:\visualstudio\vc\include\vector(1281): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<Audio,Audio&>(_Ty *,Audio &)' being compiled
+          with
+          [
+              _Ty=Audio
+          ]
+  d:\visualstudio\vc\include\vector(1274): note: while compiling class template member function 'void std::vector<Audio,std::allocator<_Ty>>::push_back(const Audio &)'
+          with
+          [
+              _Ty=Audio
+          ]
+  c:\users\nick\desktop\game1\game1\archive.cpp(98): note: see reference to function template instantiation 'void std::vector<Audio,std::allocator<_Ty>>::push_back(const Audio &)' being compiled
+          with
+          [
+              _Ty=Audio
+          ]
+  c:\users\nick\desktop\game1\game1\archive.cpp(98): note: see reference to class template instantiation 'std::vector<Audio,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=Audio
+          ]
+  Generating Code...

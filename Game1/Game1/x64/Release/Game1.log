@@ -1,0 +1,9 @@
+﻿  archive.cpp
+archive.cpp(47): warning C4244: 'argument': conversion from 'std::streamoff' to 'int', possible loss of data
+  Generating code
+  1 of 600 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Game1.vcxproj -> C:\Users\Nick\Desktop\Game1\x64\Release\Game1.exe
+  Game1.vcxproj -> C:\Users\Nick\Desktop\Game1\x64\Release\Game1.pdb (Full PDB)
